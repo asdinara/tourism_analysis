@@ -98,6 +98,8 @@ Unfortunately, uploading to Tableau Public didn't work out.
 
 All Indicators were normalised within the workbook.
 
+Initial data discovery was done in Jupyter Notebook: [EDA](https://github.com/asdinara/tourism_analysis/blob/master/notebooks/exploration.ipynb)
+
 ![Data Source Structure](./vizualizations/tableau_wokrbook.png)
 
 **Key Findings**:
@@ -121,13 +123,9 @@ Overall, the outbound and inbound tourism continues to grow (data doesn't includ
 
 ## Running the Project
 
-**Prerequisites**: 
-- Python 3.x
-- Libraries: pandas, matplotlib, ...
-
 **Steps**:
-1. Clone the repository: `git clone REPO_URL`.
-2. Navigate to the project directory: `cd DIRECTORY_NAME`.
+1. Clone the repository: `git clone https://github.com/asdinara/tourism_analysis.git`.
+2. Navigate to the project directory: `cd tourism_analysis`.
 3. Install necessary libraries: `pip install -r requirements.txt`.
 4. Run the main ETL script: `python etl.py`.
 
@@ -136,7 +134,3 @@ Overall, the outbound and inbound tourism continues to grow (data doesn't includ
 - Integration with a data visualization tool for more interactive insights.
 - Expand the dataset to include more years/indicators.
 - Automate the ETL process for real-time data updates.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
